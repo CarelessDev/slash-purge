@@ -1,0 +1,17 @@
+{
+  "name": "slash-purge",
+  "version": "1.0.0",
+  "description": "Purge all Slash Commands",
+  "author": "Leomotors",
+  "license": "MIT",
+  "private": true,
+  "main": "src/index.js",
+  "repository": "https://github.com/CarelessDev/slash-purge",
+  "type": "module",
+  "scripts": {
+    "start": "node --es-module-specifier-resolution=node src/index.js"
+  },
+  "dependencies": {
+    "discord.js": "^13.3.1"
+  }
+}
